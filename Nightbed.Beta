@@ -1,5 +1,5 @@
 --Beemo's simple whitelist
-_G.Key = "8599ada98f528e9a099bb690e9b7ef7e"
+_G.Key = "need key"
 
 local keys = {
     "8599ada98f528e9a099bb690e9b7ef7e",
