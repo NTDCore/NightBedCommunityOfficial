@@ -4,7 +4,7 @@ _G.Key = "8599ada98f528e9a099bb690e9b7ef7e"
 local keys = {
     "8599ada98f528e9a099bb690e9b7ef7e",
     "need key",
-    "key3"
+    "script down"
 }
 
 local counter = 1
@@ -13,7 +13,7 @@ for i,v in pairs(keys) do
     if counter == #keys then
     --not whitelisted!
     keys = ""
-    game.Players.LocalPlayer:Kick("it key is reset now please DM Owner For Private Key")
+    game.Players.LocalPlayer:Kick("DM The Owner")
     else
         if v == _G.Key then
             --Whitelisted!
