@@ -1,5 +1,5 @@
 --Beemo's simple whitelist
-_G.Key = "need key"
+_G.Key = ""
 
 local keys = {
     "8599ada98f528e9a099bb690e9b7ef7e",
@@ -17,7 +17,7 @@ for i,v in pairs(keys) do
     else
         if v == _G.Key then
             --Whitelisted!
-           loadstring(game:HttpGet("https://pastebin.com/raw/zb1sSMbr",true))()
+           loadstring(game:HttpGet("https://raw.githubusercontent.com/NTDCore/Nightbed.bed/main/whitelist.lua%3F",true))()
             keyCheck = _G.Key
             keys = ""
         else
