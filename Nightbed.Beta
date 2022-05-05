@@ -3,8 +3,8 @@ _G.Key = "8599ada98f528e9a099bb690e9b7ef7e"
 
 local keys = {
     "8599ada98f528e9a099bb690e9b7ef7e",
-    "need key",
-    "script down"
+    "script down",
+    "need key"
 }
 
 local counter = 1
