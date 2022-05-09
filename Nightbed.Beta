@@ -1,36 +1,10 @@
---Beemo's simple whitelist
-_G.Key = "wejqwiodkoasjkodjodjiodajdoaskdjaskodjaodjasdkjasdkoawjdkoajdaiodjasiodawidhwdjihajidhasjidhjkqwdhajkdhasjkdashdasjdkasjdwkdhaihsufjasdbajdadashdjashdadgasdgahgdashdgdjhasgdadghasdhgwduhdgasbdwqdgqwugva7uai9jzgzz"
-
-local keys = {
-    "wejqwiodkoasjkodjodjiodajdoaskdjaskodjaodjasdkjasdkoawjdkoajdaiodjasiodawidhwdjihajidhasjidhjkqwdhajkdhasjkdashdasjdkasjdwkdhaihsufjasdbajdadashdjashdadgasdgahgdashdgdjhasgdadghasdhgwduhdgasbdwqdgqwugva7uai9jzgzz",
-    "FREE KEY",
-    "need key",
-}
-
-local counter = 1
-local keyCheck
-for i,v in pairs(keys) do
-    if counter == #keys then
-    --not whitelisted!
-    keys = ""
-    game.Players.LocalPlayer:Kick("DM The Owner")
-    else
-        if v == _G.Key then
-            --Whitelisted!
-           loadstring(game:HttpGet("https://raw.githubusercontent.com/NTDCore/Nightbed.bed/main/whitelist.lua%3F",true))()
-            keyCheck = _G.Key
-            keys = ""
-        else
-            counter = counter +1
-        end
-    end
-end
-
-while true do
-    if _G.Key == keyCheck then
-        --Not spoofed
-    else
-        game.Players.LocalPlayer:Kick("it key is reset now please DM Owner For Private Key")
-    end
-    wait()
-end
+game.StarterGui:SetCore("SendNotification", {
+	Title = "Nightbed Loading";
+	Text = "Loading Data Script"; -- what the text says (ofc)
+	Duration = 60;
+})
+game.StarterGui:SetCore("SendNotification", {
+	Title = "detect ALERT";
+	Text = "NEED TO PROTECT AND SAVED"; -- what the text says (ofc)
+	Duration = 60;
+})
