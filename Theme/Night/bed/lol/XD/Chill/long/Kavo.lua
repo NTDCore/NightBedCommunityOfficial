@@ -70,19 +70,54 @@ local themeStyles = {
         TextColor = Color3.fromRGB(0,0,0),
         ElementColor = Color3.fromRGB(224, 224, 224)
     },
-    NightPurple = {
-        SchemeColor = Color3.fromRGB(64, 64, 64),
-        Background = Color3.fromRGB(101, 5, 255),
-        Header = Color3.fromRGB(0, 0, 0),
-        TextColor = Color3.fromRGB(101,0,255),
-        ElementColor = Color3.fromRGB(20, 20, 20)
-    },
     BloodTheme = {
-        SchemeColor = Color3.fromRGB(227, 27, 27),
+        SchemeColor = Color3.fromRGB(227, 2, 2),
         Background = Color3.fromRGB(10, 10, 10),
         Header = Color3.fromRGB(5, 5, 5),
         TextColor = Color3.fromRGB(255,255,255),
         ElementColor = Color3.fromRGB(20, 20, 20)
+    },
+    RedBerry = {
+      SchemeColor = Color3.fromRGB(231, 17, 42),
+      Background = Color3.fromRGB(0, 0, 0),
+      Header = Color3.fromRGB(31, 31, 31),
+      TextColor = Color3.fromRGB(255,255,255),
+      ElementColor = Color3.fromRGB(31, 31, 31)
+    },
+    BlueBerry = {
+      SchemeColor = Color3.fromRGB(2, 17, 231),
+      Background = Color3.fromRGB(0, 0, 0),
+      Header = Color3.fromRGB(31, 31, 31),
+      TextColor = Color3.fromRGB(255,255,255),
+      ElementColor = Color3.fromRGB(31, 31, 31)
+    },
+    Corn = {
+      SchemeColor = Color3.fromRGB(249, 100, 30),
+      Background = Color3.fromRGB(0, 0, 0),
+      Header = Color3.fromRGB(0, 0, 0),
+      TextColor = Color3.fromRGB(255,255,255),
+      ElementColor = Color3.fromRGB(31, 31, 31)
+    },
+    Kiwi = {
+      SchemeColor = Color3.fromRGB(48, 255, 0),
+      Background = Color3.fromRGB(41, 41, 41),
+      Header = Color3.fromRGB(31, 31, 31),
+      TextColor = Color3.fromRGB(255,255,255),
+      ElementColor = Color3.fromRGB(66, 66, 66)
+    },
+    Luna = {
+      SchemeColor = Color3.fromRGB(126, 6, 232),
+      Background = Color3.fromRGB(0, 0, 0),
+      Header = Color3.fromRGB(31, 31, 31),
+      TextColor = Color3.fromRGB(255,255,255),
+      ElementColor = Color3.fromRGB(31, 31, 31)
+    },
+    Night = {
+      SchemeColor = Color3.fromRGB(37, 37, 166),
+      Background = Color3.fromRGB(24, 24, 107),
+      Header = Color3.fromRGB(28, 28, 198),
+      TextColor = Color3.fromRGB(255,255,255),
+      ElementColor = Color3.fromRGB(31, 31, 31)
     },
     GrapeTheme = {
         SchemeColor = Color3.fromRGB(166, 71, 214),
@@ -162,10 +197,20 @@ function Kavo.CreateLib(kavName, themeList)
         themeList = themeStyles.DarkTheme
     elseif themeList == "LightTheme" then
         themeList = themeStyles.LightTheme
-    elseif themeList == "NightPurple" then
-        themeList = themeStyles.NightPurple
     elseif themeList == "BloodTheme" then
         themeList = themeStyles.BloodTheme
+    elseif themeList == "RedBerry" then
+      themeList = themeStyles.RedBerry
+    elseif themeList == "BlueBerry" then
+        themeList = themeStyles.BlueBerry
+    elseif themeList == "Corn" then
+        themeList = themeStyles.Corn
+    elseif themeList == "Kiwi" then
+        themeList = themeStyles.Kiwi
+    elseif themeList == "Luna" then
+        themeList = themeStyles.Luna
+    elseif themeList == "Night" then
+        themeList = themeStyles.Night
     elseif themeList == "GrapeTheme" then
         themeList = themeStyles.GrapeTheme
     elseif themeList == "Ocean" then
