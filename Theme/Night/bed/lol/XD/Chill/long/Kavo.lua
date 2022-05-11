@@ -72,9 +72,9 @@ local themeStyles = {
     },
     NightPurple = {
         SchemeColor = Color3.fromRGB(101, 0, 255),
-        Background = Color3.fromRGB(25,255,255),
-        Header = Color3.fromRGB(200, 200, 200),
-        TextColor = Color3.fromRGB(101,0,255),
+        Background = Color3.fromRGB(0,0,0),
+        Header = Color3.fromRGB(101, 0, 255),
+        TextColor = Color3.fromRGB(0,0,0),
         ElementColor = Color3.fromRGB(20, 20, 20)
     },
     BloodTheme = {
